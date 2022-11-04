@@ -53,7 +53,6 @@ def main():
     if images:
         bot.send_media_group(chat_id=data["telegram"]["chat_id"], media=images)
     else:
-        print("else")
         bot.send_message(chat_id=data["telegram"]["chat_id"], text="Sorry, I cannot retrive newspapers pictures!")
 
 if __name__ == '__main__':
