@@ -1,0 +1,10 @@
+{
+  "telegram":{
+    "bot_token": "xxx:yyyyyyyy",
+    "chat_id": "abcdef"
+  },
+  "base_url": "https://www.frontpages.com/",
+  "newspapers": ["corriere-della-sera",
+                 "the-new-york-times",
+		     "suddeutsche-zeitung"]
+}
